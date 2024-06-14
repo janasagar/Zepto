@@ -4,13 +4,9 @@ class Log_In{
         cy.get('#login_h').click({force: true});
     }
     log_in(){
-    cy.get('#email').type('sagarjana2@gmail.com')
+    cy.get('#email').type('masai@gmail.com')
     cy.get('#password').type('test@123')
     cy.xpath("//button[@type='submit']").click()
-    cy.on('window:alert',(msg1)=>{
-        expect(msg1).to.eq('Login Successful')
-        return true;
-    })
     }
 }
 

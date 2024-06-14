@@ -15,14 +15,14 @@ describe('Zepto Test suit', () => {
       
     });
 var login= new Log_In();
-it.skip('Log in test', () => {
+it('Log in test', () => {
     
     login.visit_login();
     login.log_in()
     
 });
 var logout = new Log_Out();
-it.skip(' Log Out test', () => {
+it(' Log Out test', () => {
     login.visit_login();
     login.log_in()
     logout.log_out()
@@ -30,17 +30,19 @@ it.skip(' Log Out test', () => {
 });
 
 var explore_category = new Explore_Category();
-it.skip('Explore Category test', () => {
+it('Explore Category test', () => {
     login.visit_login();
     login.log_in()
-    explore_category.visitcategory('/html/body/div[3]/div[1]/div[1]/img')
+    explore_category.visitcategory('/html/body/div[2]/div[1]/div[1]/img')
     cy.wait(7000)
+    cy.go('back')
+    cy.go('back')
     logout.log_out()
     
 });
 
 var search = new Search();
-it.skip('Search test', () => {
+it('Search test', () => {
     login.visit_login();
     login.log_in()
     search.item_search()
@@ -48,7 +50,7 @@ it.skip('Search test', () => {
 });
 
 var paancorner = new Paan_Corner();
-it.skip('Paan corner test', () => {
+it('Paan corner test', () => {
     login.visit_login();
     login.log_in()
     paancorner.visit_paancorner()
