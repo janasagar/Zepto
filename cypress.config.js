@@ -15,7 +15,7 @@ module.exports = defineConfig({
     // specPattern: "**/*.feature",
     // specPattern: 'cypress/integration/assignment/*.js',
     // specPattern: 'cypress/integration/evaluation/*.js',
-    specPattern: 'cypress/integration/test/*.js',
+    specPattern: 'cypress/integration/app/*.js',
     // specPattern: 'cypress/integration/method/*.js'
     // specPattern: 'cypress/UAT/features/*.(js,feature)',
     //supportFile: false
