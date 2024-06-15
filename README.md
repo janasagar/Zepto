@@ -21,7 +21,7 @@ node -v
 ```
 ### Step 4. Download the project
 Create a folder. Open a command prompt nevigate to your folder.
-Paste this command(You have install git first)
+Paste this command(You have to install git first)
 ```bash
 git clone https://github.com/janasagar/Zepto.git
 ```
