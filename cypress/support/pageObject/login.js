@@ -4,8 +4,8 @@ class Log_In{
         cy.get('#login_h').click({force: true});
     }
     log_in(){
-    cy.get('#email').type('masai@gmail.com')
-    cy.get('#password').type('test@123')
+    cy.get('#email').type('zepto001@gmail.com')
+    cy.get('#password').type('password')
     cy.xpath("//button[@type='submit']").click()
     }
 }

@@ -5,13 +5,14 @@ class Sign_Up{
         cy.get('#login_h').click({force: true});
         cy.get('#signupLink').click();
         
-        cy.get('#signupUsername').type('test12')
+        
         
     }
     sign_up(){
-        cy.get('#signupEmail').type('masai@gmail.com')
+        cy.get('#signupUsername').type('zepto001')
+        cy.get('#signupEmail').type('zepto001@gmail.com')
         cy.get('#signupContact').type('7098510151')
-        cy.get('#signupPassword').type('test@123')
+        cy.get('#signupPassword').type('password')
         cy.xpath("//button[@type='submit']").click()
         cy.on('window:alert',(msg)=>{
             expect(msg).to.eq('Signup Successful. Please Login!')
