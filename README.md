@@ -39,7 +39,7 @@ npx cypress open
 ![image](https://github.com/janasagar/Zepto/assets/172262154/7b2f057e-fe06-4b02-8ee1-5204442facd4)
 ![image](https://github.com/janasagar/Zepto/assets/172262154/8b783b43-d882-41dc-bfb1-51102bb8a53c)
 
-## Video for running Cypress
+## Video: Running Cypress
 https://github.com/janasagar/Zepto/assets/172262154/cbbfea72-c698-4ea9-96f6-0bcd7c730a6a
 
 ## Technology Stack
