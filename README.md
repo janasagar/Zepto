@@ -33,15 +33,16 @@ Paste this command
 npx cypress open
 ```
 
-## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+### Screenshots
+![image](https://github.com/janasagar/Zepto/assets/172262154/478bf48b-27e3-4eee-a949-28626a99a4bf)
+![image](https://github.com/janasagar/Zepto/assets/172262154/8acaeb16-59bf-4650-a695-e735a8e5f794)
+![image](https://github.com/janasagar/Zepto/assets/172262154/7b2f057e-fe06-4b02-8ee1-5204442facd4)
+![image](https://github.com/janasagar/Zepto/assets/172262154/8b783b43-d882-41dc-bfb1-51102bb8a53c)
 
-## Video Walkthrough of the codebase
-Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
+## Video for running Cypress
+https://github.com/janasagar/Zepto/assets/172262154/cbbfea72-c698-4ea9-96f6-0bcd7c730a6a
 
 ## Technology Stack
-List and provide a brief overview of the technologies used in the project.
-
 - Node.js
 - Java Script
 - Cypress
