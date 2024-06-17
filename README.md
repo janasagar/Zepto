@@ -19,12 +19,14 @@ npm -v
 ```bash
 node -v
 ```
+![image](https://github.com/janasagar/Zepto/assets/172262154/478bf48b-27e3-4eee-a949-28626a99a4bf)
 ### Step 4. Download the project
 Create a folder. Open a command prompt nevigate to your folder.
 Paste this command(You have to install git first)
 ```bash
 git clone https://github.com/janasagar/Zepto.git
 ```
+![image](https://github.com/janasagar/Zepto/assets/172262154/8acaeb16-59bf-4650-a695-e735a8e5f794)
 It will download this project.
 ### Step 5. Run the project
 Open VS code select the Zepto folder and open terminal.
@@ -32,10 +34,6 @@ Paste this command
 ```bash
 npx cypress open
 ```
-
-### Screenshots
-![image](https://github.com/janasagar/Zepto/assets/172262154/478bf48b-27e3-4eee-a949-28626a99a4bf)
-![image](https://github.com/janasagar/Zepto/assets/172262154/8acaeb16-59bf-4650-a695-e735a8e5f794)
 ![image](https://github.com/janasagar/Zepto/assets/172262154/7b2f057e-fe06-4b02-8ee1-5204442facd4)
 ![image](https://github.com/janasagar/Zepto/assets/172262154/8b783b43-d882-41dc-bfb1-51102bb8a53c)
 
